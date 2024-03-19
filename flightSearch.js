@@ -1,3 +1,5 @@
+import FlightResults from '/flightResults'
+
 const FlightSearch = () => {
   return (
     <div>
@@ -5,6 +7,7 @@ const FlightSearch = () => {
     <p>Destination<p>
     <p>Outbound<p>
     <p>Return<p>
+    <FlightResults/>
     <div>
     )
     }
